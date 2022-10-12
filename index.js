@@ -1,10 +1,3 @@
-let greenCharacter = document.createElement('img')
-greenCharacter.src = 'assets/green-character.gif'
-greenCharacter.style.position = 'fixed'
-greenCharacter.style.left = '100px'
-greenCharacter.style.bottom = '100px'
-document.body.append(greenCharacter)
-
 function tile(url, left, bottom, width, height){
     for(let h = 0; h < height; h++){
         for(let w = 0; w < width; w++){
